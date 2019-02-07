@@ -9,12 +9,18 @@
 function arrays() {
     var pens;
     pens = ["red", "orange", "blue", "green", "pink", "purple"];
-    console.log(pens);
-
+    marker = pens;
+    console.log(marker);
+    console.log(marker[0]);
+    for (i = 0; i < marker.length; i++) {
+        alert(marker[i]);
+    }
+    alert("length of arrays is :" + marker.length);
 }
 
 
 
+    
 
 
 
